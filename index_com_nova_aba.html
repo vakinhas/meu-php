@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+ <meta charset="UTF-8" />
+
+<head>
+
+
+  <title>
+    Vakinha online
+  </title>
+ 
+  
+  
+<meta name="author" content="Wallison Silva" />
+<meta name="keywords" content="Vakinha" />
+<meta name="description" content="Site para demonstração" />
+  
+  </head>
+  
+<style type="text/css">
+
+
+* {
+	box-sizing: border-box;
+}
+
+body { 
+	padding: 10px;
+	background: #f2f2f2;
+	
+
+	
+    
+}
+
+.tabela { left: 270px;
+    top: calc(2em + 683px);
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 760px;
+	background: #00fff;
+	box-shadow:;
+	
+	
+	
+	position:absolute;
+	
+}
+
+
+.input {
+	position: absolute;
+	opacity: 0.0;
+}
+
+.label {
+	width: 100%;
+	padding: 10px 25px;
+	background: #fff;
+	cursor: pointer;
+	font-weight: arial;
+	font-size: 18px;
+	color: #7f7f7f;
+	transition: background 0.1s, color 0.1s;
+}
+
+.label:hover {
+	background: #d8d8d8;
+}
+
+.label:active {
+	background: #ccc;
+}
+
+.input:focus + .label {
+	box-shadow: inset 0px 0px 0px 3px #2aa1c0;
+	z-index: 1;
+}
+
+.input:checked + .label {
+	background: #808080;
+	color: #fff;
+}
+
+@media (min-width: 600px) {
+	.label {
+		width: auto;
+	}
+}
+/* PRA AJUSTAR A POSIÇÃO DO TEXTO com padding: */
+.panel {
+	display: none;
+	padding: 20px 0px 30px;
+	background: #fff;
+}
+
+@media (min-width: 600px) {
+	.panel {
+		order: 99;
+	}
+}
+
+.input:checked + .label + .panel {
+	display: block;
+}
+
+.panel p{margin:;}
+
+  
+  
+  
+  
+ /* pro botao carregar mais! Checkbox Hack */
+#toggle-1 {
+   display:none;
+}
+
+label { 
+  -webkit-appearance: push-button;
+  -moz-appearance: button; 
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px;
+}
+
+/* CSS padrão da div */
+#mostra {
+   display:none;
+}
+
+/* CSS quando o checkbox está marcado */
+#toggle-1:checked ~ #mostra {
+   display:block;
+}
+
+   </style>
+   
+ 
+   
+   
+ <div class="p1" style='background-color: #00fff; position:absolute; z-index:6; width: 400px; height: -822px; left: 430px; top: -212px; display:inline-table;'>
+<!---pesqui no v--->
+<form action="" method="post">
+                <input style=' margin-top:246px; margin-left:19px; padding-right:33px; padding-top: 21px;' id="pesquise" name="pesquise" type="text" /><input type="submit" value="a" style='opacity:0; padding-left:25px; padding-top: 20px;cursor:pointer;'>
+            </form>  </div>
+			
+   <img style='width:100%px; height:100%px; position: absolute; z-index:0;
+
+background-repeat:no-repeat;' src="inicial.png" id="corpo" />
+
+<!-- acessou botao 1-->
+<div class="acessou" style='top:346px; left: 859px; width:255px; height:60px; background-color:#00fff; z-index:5; position:absolute;'>
+<form action="direcionaacesso.php" method="post" >
+
+<input id="acessou" name="acessou" type="submit" value="Contribuir>" style='padding-right:180px; padding-bottom:55px; height:18px; opacity:0; cursor:pointer;'/>
+
+</form>	
+
+</div>
+
+
+
+<div class="tabela">
+	<input name="tabs" type="radio" id="tab-1" checked="checked" class="input"/>
+	<label for="tab-1" class="label">sobre</label>
+	<div class="panel" style='text-align: left;'>
+		<h1></h1>
+		<p>QUAL É O PREÇO DE UMA VIDA? Bernardo Henrique Dalla Costa, foi diagnosticado aos 6 meses de idade com Atrofia Muscular Espinhal Tipo 1 (o tipo mais grave da doença), doença rara, progressiva, degenerativa, que afeta os músculos, não sustenta a cabeça, não senta, não anda, se alimenta e respira com o auxílio de aparelhos.</p>
+
+<p>Hoje com 3 anos e 3 meses de idade o Bê se alimenta por sonda de gastrostomia e utiliza um Ventilador para auxílio na respiração.Em dezembro de 2016 foi aprovado nos EUA um medicamento para TRATAR essa TERRÍVEL; DOENÇA, que até então não tinha cura nem ao menos tratamento.Infelizmente não nos enquadramos nos requisitos para sair do Brasil para tratar nosso Bernardo, porém podemos COMPRAR a medicação e realizar a aplicação aqui no Brasil. A parte mais dolorosa e difícil é que essa medicação chamada SPINRAZA custa cerca de 2 milhões de reais para 1 ano de tratamento.</p>
+
+<p>No primeiro ano de tratamento são necessárias 06 doses, cada dose custa R$ 352.341,55 reais.</p>
+
+<p>Estamos muito aflitos, vcs já imaginaram ver nosso pitoquinho quem sabe até andando, sentando, se alimentando e respirando sem os aparelho; nós imaginamos a todo momento, mas não sabemos o que fazer. Ele é uma criança cheia de força de vontade, nosso maior desejo era oferecer uma vida melhor para ele, essa medicação poderia fazer isso, levando em consideração que crianças dos EUA que fazem uso desse medicamento tem apresentado ótimos resultados, devido a grande eficácia do mesmo.</p>
+
+<p>As aplicações funcionam da seguinte maneira:Primeira aplicação, 14 dias após Segunda aplicação, 14 dias após Terceira aplicação e 30 dias após a quarta aplicação, e as próximas aplicações ocorrem de 4 em 4 meses.Nosso intuito é angariar fundos para 1 ano de tratamento.Gostaríamos da ajuda de vcs, que sempre até hoje estiveram conosco. Doando, curtindo, compartilhando, orando, dando idéias para arrecadação.Estamos desesperados em saber da existência dessa medicação porém ser tão difícil o acesso a ela.NOSSO BERNARDO MERECE VIVER! AJUDE ELE A VIVER!CONTAMOS COM A SUA AJUDA.</p>
+<a >
+<br/><br/>
+
+<!-- acessou botao2-->
+<div class="acessou" style='top:; left:292px; width:255px; height:60px; background-color:#00fff; z-index:5; position:absolute;'>
+<form action="direcionaacesso.php" method="post" >
+
+<input id="acessou" name="acessou" type="submit" value="Contribuir>" style='padding-right:170px; background-color:green; padding-bottom:53px; height:18px; opacity:0; cursor:pointer;'/>
+
+</form>	
+
+</div>
+
+  <img src="botao.png" alt="HTML tutorial" style="width:250px;height:auto; border:0; top:; z-index:; position:absolute;left:290px;">
+</a>
+</div>
+  
+
+	<input name="tabs" type="radio" id="tab-2" class="input"/>
+	<label for="tab-2" class="label">novidades</label>
+	<div class="panel">
+		<h3>Novidades (2)</h3> <p>
+      <span class="text-capitalize">Bernardo Henrique Dalla Costa </span>
+      <em>alterou o título da vaquinha em 10 de Junho de 2017</em>:
+    </p>
+
+    <blockquote>
+      <h4>De AmeBê - JUNTOS PELO BÊ para JUNTOS PELO BÊ - AME CONCÓRDIA </h4>
+    </blockquote>
+
+
+    <p>
+      <span class="text-capitalize">Bernardo Henrique Dalla Costa </span>
+      <em>alterou o título da vaquinha em 28 de Maio de 2017</em>:
+    </p> <blockquote>
+      <h4>AmeBê - JUNTOS PELO BÊ</h4>
+    </blockquote> </div>
+
+	<input name="tabs" type="radio" id="tab-3" class="input"/>
+	<label for="tab-3" class="label">comentarios</label>
+	<div class="panel">
+		<h1></h1>
+		<p></p>
+	</div>
+	
+	<input name="tabs" type="radio" id="tab-4" class="input"/>
+	<label for="tab-4" class="label">quem ajudou (4140)</label>
+	<div class="panel">
+		<h3>Quem ajudou (4140)</h3> <p>
+        <strong>Guilherme Faleiro Vieira </strong>
+      <br/>
+      <span>em 05 de Outubro de 2018</span>
+      <br/><br/>
+    </p> <p>
+        <strong>Jonas Hickmann </strong>
+      <br/>
+      <span>em 05 de Outubro de 2018</span>
+      <br/><br/>
+    </p> <p>
+        <strong>Lediane de Godois </strong>
+      <br/>
+      <span>em 05 de Outubro de 2018</span>
+      <br/><br/>
+    </p> <p>
+        <strong>Stela Costa de Castilho </strong>
+      <br/>
+      <span>em 05 de Outubro de 2018</span>
+      <br/><br/>
+    </p> <p>
+        <strong>Cassia Maria Lima </strong>
+      <br/>
+      <span>em 05 de Outubro de 2018</span>
+      <br/><br/>
+    </p> <p>
+        <strong>Samara Aguiari </strong>
+      <br/>
+      <span>em 05 de Outubro de 2018</span>
+      <br/><br/>
+    </p> <p>
+        <strong>PATRICK NUNES GEHLING </strong>
+      <br/>
+      <span>em 05 de Outubro de 2018</span>
+      <br/><br/>
+    </p> <p>
+        <strong>Luana </strong>
+      <br/>
+      <span>em 05 de Outubro de 2018</span>
+      <br/><br/>
+    </p>
+	
+	<div id="carregar" style='position:absolute;'><strong>Caregar mais</strong></div> 
+	<label for="toggle-1" style='z-index:5; opacity:0; margin-top:-8px;'>
+  Caregar mais.
+</label>
+<input type="checkbox" id="toggle-1">
+<div id="mostra">
+    Faça uma doação para continuar!
+</div> 
+	
+	</div>
+	
+	<input name="tabs" type="radio" id="tab-5" class="input"/>
+	<label for="tab-5" class="label">denuncie</label>
+	<div class="panel">
+		<h3>Denuncie</h3>
+          <h4>Iremos verificar sua denúncia e entrar em contato com o dono da Vakinha.</h4>
+          <form accept-charset="UTF-8" action="index_com_nova_aba.html" class="complaint" method="post"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="/rpGdopM6jX14ByTRdbH7JJ8huLLZR33w+fx8na7hAk=" /></div>
+            <div class="col-sm-6 col-xs-12">
+              <p>
+                <label for="name">Nome</label> <br/>
+                <input id="complaint_name" name="complaint[name]" type="text" />
+              </p>
+              <p>
+                <label for="email">E-mail</label> <br/>
+                <input id="complaint_email" name="complaint[email]" type="email" />
+              </p>
+              <p>
+                <label for="phone">Telefone</label> <br/>
+                <input id="complaint_phone" name="complaint[phone]" type="text" />
+              </p>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+              <p>
+                <label for="comment">Comentário</label> <br/>
+                <textarea id="complaint_comments" name="complaint[comments]">
+</textarea>
+              </p>
+              <p>
+                <div id="recaptcha-denuncie"></div>
+                <input name="commit" type="submit" value="Enviar" />
+              </p>
+         </div>
+</div>
+
+
+<!-- img pra links -->
+   
+   <a href="https://www.vakinha.com.br/" rel="nofollow">
+  <img src="PRA-LINKS-UM-KB.png" alt="" style="width:152px;height:43px; border:0; top:-685px; left:-5px; position:absolute;opacity:0;">
+ 
+ <!--crie sua v-->  
+  <a href="https://www.vakinha.com.br/criar-vaquinha" rel="nofollow">
+  <img src="PRA-LINKS-UM-KB.png" alt="" style="width:85px;height:26px; border:0; top:-675px; left:530px; position:absolute;opacity:0;z-index:9;">
+   
+   
+   
+   <!--criar conta SEM DIV -->  
+  <div></div>
+   <form action="https://www.vakinha.com.br/users/sign_up" rel="nofollow" method="post">
+
+<input id="link" name="acessou" type="submit" value="Contribuirrrr>" style='background-color:green; padding-right:75px; padding-bottom:10px; margin-left:41px; margin-top:-677px; position:absolute; opacity:0; cursor:pointer;'/>
+
+</form>	
+ 
+<!--fazer login-->  
+  <a href="https://www.vakinha.com.br/users/sign_in" rel="nofollow">
+  <img src="PRA-LINKS-UM-KB.png" alt="" style="width:39px;height:20px; border:0; top:-670px; left:640px; position:absolute;opacity:0;">
+
+  <!--tweetar-->  
+  <a href="https://twitter.com/" rel="nofollow">
+  <img src="PRA-LINKS-UM-KB.png" alt="" style="width:70px;height:20px; border:0; top:-608px; left:660px; position:absolute;opacity:0;">
+  
+  <!--compartilhar-->  
+  <a href="https://www.facebook.com/" rel="nofollow">
+  <img src="PRA-LINKS-UM-KB.png" alt="" style="width:125px;height:20px; border:0; top:-608px; left:740px; position:absolute;opacity:0;">
+  
+  
+  <!---assinar no v COLOCAR A URL QUE SÓ RECARREGA ESSA MESMA PAGINA! NÃO REUSAR TÁ BAGUNÇADO--->
+  <a href="" rel="nofollow"/>
+  
+<form action="" method="post" style='background:none; padding: 0; width:240px; height:30px; top:868px; left:255px; position:absolute;'>
+                <input type="text" style='opacity:0;display:flax; position:absolute; margin-top:; padding-right:-31px; padding-top:; padding-bottom:10px;' id="assine" name="assine" type="text" /><input type="submit" value="a" style='position:; opacity:0; padding-top: -20px;padding-bottom:10px;'/>
+            </form>
+			
+  <body>
+
+
+</body>
+</html>
